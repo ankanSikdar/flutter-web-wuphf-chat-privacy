@@ -52,7 +52,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.only(bottom: 50.0),
-        child: Column(children: [
+        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           PrivacyComponent(),
           InfoCollected(),
           LogData(),
@@ -62,6 +62,7 @@ class MyHomePage extends StatelessWidget {
           Links(),
           ChildrensPrivacy(),
           PrivacyChanges(),
+          ContactUs(),
         ]),
       ),
     );
