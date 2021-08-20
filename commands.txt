@@ -1,0 +1,2 @@
+flutter run -d web-server --web-hostname 0.0.0.0 --web-port 55555
+firebase deploy --only hosting:wuphf-chat-privacy-policy
