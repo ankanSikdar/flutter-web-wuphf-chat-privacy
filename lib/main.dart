@@ -53,6 +53,7 @@ class MyHomePage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(children: [
           PrivacyComponent(),
+          InfoCollected(),
         ]),
       ),
     );
