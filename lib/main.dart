@@ -30,12 +30,18 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 4.0,
-        toolbarHeight: 125.0,
+        toolbarHeight: 100.0,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.only(
+            bottomLeft: Radius.circular(15.0),
+            bottomRight: Radius.circular(15.0),
+          ),
+        ),
         title: Row(
           children: [
             Container(
-              height: 100.0,
-              width: 100.0,
+              height: 80.0,
+              width: 80.0,
               padding: EdgeInsets.all(10.0),
               color: Colors.white,
               child: Image.asset('assets/images/app_icon.png'),
@@ -44,7 +50,7 @@ class MyHomePage extends StatelessWidget {
             Expanded(
               child: Text(
                 'Wuphf Chat Privacy Policy',
-                style: TextStyle(fontSize: 36.0),
+                style: TextStyle(fontSize: 30.0),
               ),
             ),
           ],
