@@ -51,9 +51,11 @@ class MyHomePage extends StatelessWidget {
         ),
       ),
       body: SingleChildScrollView(
+        padding: EdgeInsets.only(bottom: 50.0),
         child: Column(children: [
           PrivacyComponent(),
           InfoCollected(),
+          LogData(),
         ]),
       ),
     );
