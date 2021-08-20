@@ -50,7 +50,14 @@ class MyHomePage extends StatelessWidget {
             Expanded(
               child: Text(
                 'Wuphf Chat Privacy Policy',
-                style: TextStyle(fontSize: 30.0),
+                style: TextStyle(
+                  fontSize: 30.0,
+                  color: Theme.of(context).primaryColor,
+                ),
+                overflow: TextOverflow.visible,
+                maxLines: 2,
+                softWrap: true,
+                textAlign: TextAlign.center,
               ),
             ),
           ],
