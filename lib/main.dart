@@ -56,6 +56,7 @@ class MyHomePage extends StatelessWidget {
           PrivacyComponent(),
           InfoCollected(),
           LogData(),
+          Cookies(),
         ]),
       ),
     );
