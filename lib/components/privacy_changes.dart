@@ -13,7 +13,7 @@ class PrivacyChanges extends StatelessWidget {
         Header(text: 'Changes to This Privacy Policy'),
         Content(
           text:
-              'I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.\nThis policy is effective as of 20-08-2021',
+              'I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.\n\nThis policy is effective as of 20-08-2021',
         ),
       ],
     );
