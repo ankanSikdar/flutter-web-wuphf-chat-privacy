@@ -8,7 +8,7 @@ class Content extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 8.0),
-      child: Text(
+      child: SelectableText(
         text,
         style: TextStyle(fontSize: 18.0),
         textAlign: TextAlign.justify,

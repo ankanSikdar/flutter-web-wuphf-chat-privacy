@@ -8,7 +8,7 @@ class Header extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.fromLTRB(16.0, 32.0, 16.0, 8.0),
-      child: Text(
+      child: SelectableText(
         text,
         style: TextStyle(
           fontSize: 24.0,
