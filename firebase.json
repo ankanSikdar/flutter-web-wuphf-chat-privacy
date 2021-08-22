@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "wuphf-chat-privacy-policy",
+    "public": "build/web",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

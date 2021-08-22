@@ -20,8 +20,6 @@
 # is commented out by default.
 #.vscode/
 
-# Firebase
-firebase.json
 
 # Flutter/Dart/Pub related
 **/doc/api/
